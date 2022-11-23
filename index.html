@@ -1,14 +1,42 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JS Calculator</title>
+    <title>Calculadora</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <div id="main">
+        <div id="content">
+            <h1>Calculator</h1>
+            <div id="current-operation"></div>
+            <div id="display"></div>
+            <div id="buttons">
+                <button class='modBtn' id="clrBtn">CE</button>
+                <button class='modBtn' id="cccBtn">C</button>
+                <button class='modBtn' id="delBtn">DEL</button>
+                <button class="opBtn" value="+">+</button>
+                <button class="numBtn" value="1">1</button>
+                <button class="numBtn" value="2">2</button>
+                <button class="numBtn" value="3">3</button>
+                <button class="opBtn" value="-">-</button>
+                <button class="numBtn" value="4">4</button>
+                <button class="numBtn" value="5">5</button>
+                <button class="numBtn" value="6">6</button>
+                <button class="opBtn" value="*">*</button>
+                <button class="numBtn" value="7">7</button>
+                <button class="numBtn" value="8">8</button>
+                <button class="numBtn" value="9">9</button>
+                <button class="opBtn" value="/">/</button>
+                <button class="numBtn" value="0">0</button>
+                <button class="numBtn" value=".">.</button>
+                <button id="equalBtn">=</button>
+                
+            </div>
+        </div>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>

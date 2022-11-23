@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background-color: #2e2e2e;
+    user-select: none;
+}
+
+#main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #666666;
+    color: white;
+    border-radius: 10px;
+    height: 80vh;
+    width: 40vw;
+    padding: 20px;
+}
+
+#content h1 {
+    text-align: center;
+}
+
+#current-operation {
+    display: flex;
+    align-self: flex-end;
+    font-weight: bolder;
+    font-size: 30px;
+    margin: 20px 0;
+    min-height: 45px;
+    overflow-wrap: break-word;
+}
+
+#display {
+    width: 100%;
+    min-height: 90px;
+    font-size: 30px;
+    text-align: end;
+    border: none;
+    margin-bottom: 20px;
+    padding-right: 8px;
+    padding-top: 20px;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    word-wrap: break-word;
+}
+
+#buttons{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 5px;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    overflow: hidden;
+}
+
+#buttons button {
+    border: none;
+    cursor: pointer;
+    font-size: larger;
+    border-radius: 5px;
+    transition: all 0.2s;
+}
+
+#equalBtn {
+    grid-column: span 2;
+    background-color: rgb(172, 255, 49);
+}
+
+#buttons button:hover{
+    box-shadow: inset 4px 0 rgb(56, 56, 56), inset 0px 4px rgb(56, 56, 56), inset -4px 0 rgb(56, 56, 56), inset 0 -4px rgb(56, 56, 56);
+}
+
+.modBtn {
+    background-color: rgb(255, 49, 49);
+}
+
+.opBtn{
+    background-color: rgb(49, 214, 255);
+}
