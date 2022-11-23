@@ -33,7 +33,9 @@ numBtns.forEach((numB) => {
 //botao delete para excluir digitos no display
 delBtn.addEventListener("click", function(){
     let delString = display.innerText.slice(0, -1)
-    displayCount--
+    if (displayCount > 0){
+        displayCount--
+    }
     console.log(displayCount)
     display.innerText = delString
 })
