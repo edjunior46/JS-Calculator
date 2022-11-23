@@ -188,7 +188,7 @@ numBtns.forEach((numB) => {
 ~~~
 
 Para retirar 1 dígito do visor (botão DEL).
-~~~~javascript
+~~~javascript
 delBtn.addEventListener("click", function(){
     let delString = display.innerText.slice(0, -1)
     if (displayCount > 0){
@@ -198,9 +198,8 @@ delBtn.addEventListener("click", function(){
     display.innerText = delString
 })
 ~~~
-
 Para retirar todos os dígitos do visor (botão CE)
-~~~~javascript
+~~~javascript
 clrBtn.addEventListener('click', function(){
     displayCount = 0
     console.log(displayCount)
@@ -209,7 +208,7 @@ clrBtn.addEventListener('click', function(){
 ~~~
 
 Para excluir toda a operação atual (botão C)
-~~~~javascript
+~~~javascript
 cccBtn.addEventListener('click', function(){
     displayCount = 0
     console.log(displayCount)
