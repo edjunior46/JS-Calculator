@@ -5,7 +5,7 @@ Calculadora desenvolvida com Javascript, HTML e CSS
 Navegador web
 
 ## Metodos utilizados
-* HTML básico (<div>, <button>);
+* HTML básico (div, button);
 * CSS básico (Grid Layout, Flex Layout);
 * Javascript (NodeList, Arrays, Functions, Arrow Functions, Loops ForEach, Condicionais If, Eventos DOM);
 
